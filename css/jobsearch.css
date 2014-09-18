@@ -1,0 +1,201 @@
+p.loading {
+	background:url("/images/careers/job-search/loading.gif") no-repeat scroll 0 -4px transparent;
+	padding:5px 0 5px 40px;
+	margin:30px 0 30px 250px;
+}
+.hide{
+	display:none;
+}
+div.disabled{
+	opacity:0.3;
+	filter:alpha(opacity=30);
+}
+div#jobinterface div#country-selector {
+	margin:-18px 0 15px 0;
+	display:block;
+	clear:both;
+	height:20px;
+}
+div#jobinterface div#country-selector ul{
+	margin:0;
+	padding:0;
+}
+div#jobinterface div#country-selector ul li{
+	float:left;
+	padding:1px 0 !important;
+	width: 32px;
+	text-align:center;
+	margin-right:3.4px;
+	display:inline;
+	list-style-type:none;
+	cursor:pointer;
+	background-color:#E2E2E2;
+	color:#715541;
+	position:relative;
+	border:1px solid #E2E2E2;
+	background-image:none;
+}
+div#jobinterface div#country-selector ul li.last-letter {
+	margin-right:0;
+}
+* html div#jobinterface div#country-selector ul li{
+	z-index:10;
+	width:20px;
+}
+div#jobinterface div#country-selector ul li.active{
+	background-color:#fff;
+	border:1px solid #E2E2E2;
+	border-bottom:1px solid #fff;
+}
+div#jobinterface div#country-selector ul li ul{
+	display:none;
+	position:absolute;
+	z-index:10;
+	left:-1px;
+	top:21px;
+	background-color:#fff;
+	border:1px solid #E2E2E2;
+	border-top:none;
+	width:150px;
+	padding-top:5px;
+}
+div#jobinterface div#country-selector ul li ul li{
+	float:none;
+	display:block;
+	width:138px;
+	text-align:left;
+	padding:6px !important;
+	margin:0;
+	background:none;
+	border:none;
+	list-style-type:none;
+	list-style-image:none;
+}
+* html div#jobinterface div#country-selector ul li ul li{
+	width:150px;
+}
+div#jobinterface div#country-selector ul li ul li.active{
+	background-color:#f0f0f0;
+	border:none;
+}
+div#jobinterface div.form{
+	float:left;
+}
+div#jobinterface select{
+	width: 471px;
+	margin:10px 40px 0 0;
+	border:1px solid #CCCCCC;
+	padding:3px 3px 3px 0;
+}
+div#jobinterface select.last{
+	margin:10px 0 0 0;
+	width: 460px;
+}
+div#jobinterface div.keyword{
+	display:block;
+	margin-top: 10px;
+}
+div#jobinterface div.keyword input{
+	width: 880px;
+	padding:3px;
+}
+div#jobinterface div.keyword button{
+	background-color:#EC8026;
+	border:1px solid #E44C16;
+	color:#FFFFFF;
+	width:80px;
+	cursor:pointer;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	line-height:1.1em;
+	padding:3px;
+}
+div#jobinterface div.fulltext input.empty{
+	color:#999;
+}
+div#jobresults div.header{
+	padding-top:10px;
+}
+div#jobresults table{
+	margin-top:20px;
+}
+div#resultsfilter{
+	margin-top:10px;
+	display:block;
+}
+div#resultsfilter a:link, div#resultsfilter a:hover, div#resultsfilter a:visited, div#resultsfilter a:active{
+	padding:0 20px 2px 5px;
+	color:#ffffff;
+	float:left;
+	border-top:1px solid #d2b9a5;
+	border-right:1px solid #88786B;
+	border-bottom:1px solid #88786B;
+	border-left:1px solid #d2b9a5;
+	text-decoration:none;
+	background:url("/images/careers/job-search/icon-close.gif") no-repeat scroll right 4px #B6A092;
+	white-space:nowrap;
+	margin:0 3px 3px 0;
+	font-size:0.8em;
+}
+div#resultsfilter a.alljobs:link, div#resultsfilter a.alljobs:hover, div#resultsfilter a.alljobs:visited, div#resultsfilter a.alljobs:active{
+	background-color:#634329;
+	background-image:none;
+	border-top:1px solid #826954;
+	border-right:1px solid #333;
+	border-bottom:1px solid #333;
+	border-left:1px solid #826954;
+	color:#F0EDEA;
+	padding:0 3px 2px 3px;
+	float:left;
+	text-decoration:none;
+}
+div#jobresults{
+	clear:both;
+}
+div#jobresults div#advancedsearch{
+	float:right;
+}
+div#jobresults div#resultsinfo{
+	font-weight:bold;
+}
+.pagination {
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+.pagination a.active, .pagination a.active:hover {
+    background-color: #8E3320;
+    color: #FFFFFF;
+}
+.pagination a.page {
+    height: 1.417em;
+    margin-right: 1px;
+    min-width: 1.5em;
+    text-align: center;
+}
+.pagination a {
+    color: #8E3320;
+    display: inline-block;
+    font-size: 0.923em;
+    line-height: 1.355em;
+	cursor:pointer;
+}
+
+div#jobresults table thead th{
+	padding:5px;
+	text-align:left;
+}
+
+div#jobresults table p.link-wrapper{
+    margin:0;
+	padding-left:20px;
+}
+
+div#jobresults table td{
+	padding:5px;
+	vertical-align:top;
+}
+
+div#us-disclaimer {
+    display: none;
+    margin: 15px 0 5px;
+}

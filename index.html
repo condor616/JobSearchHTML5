@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--#include virtual="/inc/internationalization-en.shtml" -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Job search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="Novartis global job search"/>
+<meta name="keywords" content="jobs, application, find, search, research, business, school, students"/>
+<meta name="date" content="02-09-2014"/>
+<meta http-equiv="content-language" content="en"/>
+
+<style type="text/css">
+#sub_no_left div#wrapper div#container div.content {
+	margin: 20px 0 0;
+	width: 100%;
+}
+</style>
+
+<!-- Optional HTML Header code -->
+<script src="/js/jvectormap/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/jvectormap/jquery-jvectormap-1.2.2.css">
+<link rel="stylesheet" href="/css/jobsearch.css" type="text/css" media="all" />
+<script src="/js/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="/js/jvectormap/jquery-mousewheel.js"></script>
+<script src="/js/jvectormap/worldNVS.js"></script>
+
+<script type="text/javascript" src="/feeds/job-search/setup.js"></script>
+<script type="text/javascript" src="/js/jquery.jobsearch.js"></script>
+<script type="text/javascript" language="javascript">
+var interface = {};
+var setting = {apiAddress: 'http://www.novartis.com/brassring/WebRouter.asmx/route', usDisclaimer: 1};
+var template = {};
+var data = {};
+
+jQuery(document).ready(function(){
+	jQuery('#jobsearch').jobsearch('init', interface, setting, template, data);
+                
+});
+
+
+  
+  </script>
+<script src="/js/jvectormap/jobsearch.worldmap.js"></script>
+</head>
+<body id="sub_no_left">
+<div id="wrapper"> 
+  
+  <!--#set var="HTML_LANGSWITCH" value='' --> 
+  
+  
+  <div id="header"> 
+    
+    <div id="nav"> 
+    </div>
+  </div>
+  
+  <div id="container">
+    <div class="content"> 
+     
+      <h1>Job search</h1>
+      
+      <p></p>
+      <br/>
+      <div id="jobsearch"></div>
+      <noscript>
+      <p>Javascrpt must be enabled to use this application</p>
+      <p class="arrow-link-internal"><a href="/careers/job-search/index.shtml">Go to the basic job search</a></p>
+      </noscript>
+    </div>
+    <div class="right-column"> </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
