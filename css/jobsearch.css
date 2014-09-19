@@ -1,5 +1,5 @@
 p.loading {
-	background:url("/images/careers/job-search/loading.gif") no-repeat scroll 0 -4px transparent;
+	background:url("../images/careers/job-search/loading.gif") no-repeat scroll 0 -4px transparent;
 	padding:5px 0 5px 40px;
 	margin:30px 0 30px 250px;
 }
